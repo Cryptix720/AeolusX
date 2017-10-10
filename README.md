@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Cryptix720">
-    <img src="https://https://github.com/Cryptix720/aeolusx/aeolusx.png" width=72 height=72>
+    <img src="https://github.com/Cryptix720/aeolusx/blob/master/aeolusx.png" width=72 height=72>
   </a>
 
   <h1 align="center">Aeolusx</h1>
@@ -38,7 +38,7 @@ Options:
 <li>--update-whitelist - add files signatures to the whitelist database provided by --whitelist parameter</li>
 </ul>
 
-<h3>Examples:<h3>
+<h3>Examples:</h3>
 
 Check all files in /var/www/htdocs folder.
 
@@ -56,6 +56,6 @@ Check all files in /var/www/htdocs folder using whitelist.
 
 $ aeolusx -r -w ./whitelist.sqlite /var/www/htdocs
 
-Warning!
+<h3><strong>Warning!</strong><h3>
 
-This tool does not have "auto-update function". Please make sure you have the latest NPM package installed.
+<a>This tool does not have "auto-update function". Please make sure you have the latest NPM package installed.</a>
