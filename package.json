@@ -1,36 +1,40 @@
 {
-    "name": "aeolusx",
-    "version": "1.0.0",
-    "author": "Chris Pro",
-    "description": "Cyber tool",
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha"
-    },
-    "bin": {
-        "aeolusx": "index.js"
-    },
-    "preferGlobal": true,
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Cryptix720/aeolusx.git"
-    },
-    "keywords": [
-        "malware",
-        "antivirus",
-        "security"
-    ],
-    "license": "GPL-2.0",
-    "bugs": {
-        "url": "https://github.com/Cryptix720/aeolusx/issues"
-    },
-    "homepage": "https://github.com/Cryptix720/aeolusx#readme",
-    "devDependencies": {
-        "mocha": "^2.3.3"
-    },
-    "dependencies": {
-        "commander": "^2.8.1",
-        "sqlite3": "^3.1.0",
-        "winston": "^1.0.1"
-    }
+  "name": "aeolusx",
+  "version": "1.0.0",
+  "author": "Chris Pro",
+  "description": "Cyber tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "bin": {
+    "aeolusx": "index.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cryptix720/aeolusx.git"
+  },
+  "keywords": [
+    "malware",
+    "antivirus",
+    "security"
+  ],
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Cryptix720/aeolusx/issues"
+  },
+  "homepage": "https://github.com/Cryptix720/aeolusx#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "commander": "^2.8.1",
+    "sqlite3": "^4.0.0",
+    "winston": "^1.0.1",
+    "snyk": "^1.104.2"
+  },
+  "snyk": true
 }
